@@ -14,6 +14,8 @@ We have four path replanning.
 
 ## To Run:
 
+Example of how to run the MPGA4s, or other planners are similar.
+
 With plot of the route in a .png file:
 
 ```
@@ -33,19 +35,25 @@ $ ./exec-replanner.sh
 To change the instance map, you need to change line 211 of the instance file:
 
 ```
---------------instance--------------
-| 209 <parameters number>          |
-| 210 2                            |
-| 211 instance-maps/I1_000.sgl     |    <- CHANGE this line
-| 212 config.sgl                   |
-------------------------------------
+--------------instance---------------
+| line content                      |
+|  ...                              |
+|  209 <parameters number>          |
+|  210 2                            |
+|  211 instance-maps/I1_000.sgl     |    <- CHANGE this line
+|  212 config.sgl                   |
+|  ...                              |
+-------------------------------------
 ```
 
 ```
---------------instance--------------
-| 209 <parameters number>          |
-| 210 2                            |
-| 211 instance-maps/I2_001.sgl     |    <- line CHANGED
-| 212 config.sgl                   |
-------------------------------------
+--------------instance---------------
+| line content                      |
+|  ...                              |
+|  209 <parameters number>          |
+|  210 2                            |
+|  211 instance-maps/I2_001.sgl     |    <- line CHANGED
+|  212 config.sgl                   |
+|  ...                              |
+-------------------------------------
 ```
