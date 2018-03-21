@@ -81,7 +81,7 @@ To change the TIME to execute the method, you need to change line 117 of the ins
 
 ```
 -----------------------<FILE>instance<FILE>-----------------------
-| LINE CONTENT                                                   |
+| LINE | CONTENT                                                 |
 |----------------------------------------------------------------|
 |  ... | ...                                                     |
 |  114 | ProOF.gen.stopping.Time                                 |
