@@ -16,6 +16,8 @@ We have seven path replanning.
 
 * **MS4s** -> *Multi-Start for security*
 
+* **MILP4s** -> *Mixed Integer Linear Programming for security*
+
 * **SGA4s** -> *Simple Genetic Algorithm for security*
 
 ## To Run
