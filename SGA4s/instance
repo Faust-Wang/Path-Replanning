@@ -1,5 +1,5 @@
 <factorys number>
-9
+6
 <node id>
 0
 <node type>
@@ -9,37 +9,7 @@ Run
 <node class name>
 ProOF.apl.factorys.fRun
 <chooses>
-7
-<node id>
-102
-<node type>
-2
-<node name>
-Stop
-<node class name>
-ProOF.apl.factorys.fStop
-<chooses>
-1
-<node id>
-127
-<node type>
-2
-<node name>
-Population
-<node class name>
-ProOF.apl.factorys.fPopulation
-<chooses>
-0
-<node id>
-130
-<node type>
-2
-<node name>
-Local Search
-<node class name>
-ProOF.apl.factorys.fLocalSearch
-<chooses>
-0
+30
 <node id>
 57
 <node type>
@@ -51,15 +21,15 @@ ProOF.apl.factorys.fProblem
 <chooses>
 26
 <node id>
-398
+102
 <node type>
 2
 <node name>
-Structure
+Stop
 <node class name>
-ProOF.apl.factorys.fStructure
+ProOF.apl.factorys.fStop
 <chooses>
-4
+0
 <node id>
 385
 <node type>
@@ -91,42 +61,31 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 9,10,11
 <nodes number>
-24
+22
 <node id>
-8
+31
 <node type>
 1
 <node name>
-MPGA
+jSGA_PPCCS
 <node class name>
-ProOF.apl.advanced1.method.MPGA
+ProOF.apl.jsa.method.sga.SimpleGeneticAlgorithm
 <parameters number>
-2
+4
+100
 3
-39
+70
+10
 <node id>
-104
+35
 <node type>
-0
+3
 <node name>
-Time
+CountIterations
 <node class name>
-ProOF.gen.stopping.Time
+ProOF.gen.stopping.CountIteration
 <parameters number>
-1
-0.25
-<node id>
-128
-<node type>
 0
-<node name>
-Convergence
-<node class name>
-ProOF.apl.advanced1.FMS.population.Convergence
-<parameters number>
-2
-0.5
-0.75
 <node id>
 36
 <node type>
@@ -155,16 +114,6 @@ ProOF.gen.operator.Crossover
 Mutation
 <node class name>
 ProOF.gen.operator.Mutation
-<parameters number>
-0
-<node id>
-131
-<node type>
-0
-<node name>
-Nothing
-<node class name>
-ProOF.apl.advanced1.FMS.local_search.Nothing
 <parameters number>
 0
 <node id>
@@ -208,19 +157,19 @@ PPCCSInstance
 ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
-mapa.sgl
-dinamica.sgl
+../Instance-Maps/I1_000.sgl
+config.sgl
 <node id>
-403
+103
 <node type>
 0
 <node name>
-Tree
+Evaluations
 <node class name>
-ProOF.apl.advanced1.FMS.structure.Tree
+ProOF.gen.stopping.Evaluations
 <parameters number>
 1
-3
+10000
 <node id>
 386
 <node type>
@@ -342,21 +291,17 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutCreep
 <parameters number>
 0
 ---------- summarizing ----------
-Run;MPGA
-Stop;Time
-Population;Convergence
-Local Search;Nothing
+Run;jSGA_PPCCS
 Problem;jPPCCS
-Structure;Tree
+Stop;Evaluations
 jfUAVOperators;InitRandom;InitLowAcceleration;InitSmallCurves;InitGreedy
 jfUAVOperators;OX;Average;Aritmetic;Geometric;BLX-Alpha
 jfUAVOperators;Uniform;Limite;Creep
-number of populations;3
-number of individuals;39
-time;0.25
-Crossover Rate;0.5
-Mutation Rate;0.75
+Size Population;100
+Size Tournament;3
+Rate Crossover;70
+Rate Mutation;10
 refresh time;0.1
-Map for jUAV;I6PPDCP_003.sgl
-Dinamic for jUAV;configS1.sgl
-Ramification;3
+Map for jUAV;map.sgl
+Dinamic for jUAV;config-static.sgl
+Evaluations;10000

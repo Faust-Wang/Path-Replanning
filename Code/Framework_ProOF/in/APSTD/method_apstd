@@ -19,7 +19,7 @@ ProOF.apl.factorys.fRun
 <node name>
 jAPSTD_PPCCS
 <node class name>
-ProOF.apl.jeezzz.method.apstd.APSTD
+ProOF.apl.jsa.method.apstd.APSTD
 <parameters number>
 0
 <node id>
@@ -29,7 +29,7 @@ ProOF.apl.jeezzz.method.apstd.APSTD
 <node name>
 PPCCSInstance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.instance.InstanceProblem
+ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
 map

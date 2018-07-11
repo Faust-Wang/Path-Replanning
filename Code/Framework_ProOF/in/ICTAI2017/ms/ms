@@ -1,5 +1,5 @@
 <factorys number>
-6
+5
 <node id>
 0
 <node type>
@@ -9,9 +9,9 @@ Run
 <node class name>
 ProOF.apl.factorys.fRun
 <chooses>
-30
+34
 <node id>
-57
+58
 <node type>
 2
 <node name>
@@ -21,7 +21,7 @@ ProOF.apl.factorys.fProblem
 <chooses>
 26
 <node id>
-102
+103
 <node type>
 2
 <node name>
@@ -29,29 +29,19 @@ Stop
 <node class name>
 ProOF.apl.factorys.fStop
 <chooses>
+1
+<node id>
+386
+<node type>
+2
+<node name>
+jfUAVOperators
+<node class name>
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
+<chooses>
 0
 <node id>
-385
-<node type>
-2
-<node name>
-jfUAVOperators
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
-<chooses>
-0,1,2,3
-<node id>
-385
-<node type>
-2
-<node name>
-jfUAVOperators
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
-<chooses>
-4,5,6,7,8
-<node id>
-385
+386
 <node type>
 2
 <node name>
@@ -61,23 +51,19 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 9,10,11
 <nodes number>
-22
+13
 <node id>
-31
+35
 <node type>
 1
 <node name>
-jSGA_PPCCS
+jMultiStart
 <node class name>
-ProOF.apl.jsa.method.sga.SimpleGeneticAlgorithm
+ProOF.apl.jsa.method.multistart.MultiStart
 <parameters number>
-4
-100
-3
-70
-10
+0
 <node id>
-35
+36
 <node type>
 3
 <node name>
@@ -87,7 +73,7 @@ ProOF.gen.stopping.CountIteration
 <parameters number>
 0
 <node id>
-36
+37
 <node type>
 0
 <node name>
@@ -97,17 +83,7 @@ ProOF.gen.operator.Initialization
 <parameters number>
 0
 <node id>
-37
-<node type>
-0
-<node name>
-Crossover
-<node class name>
-ProOF.gen.operator.Crossover
-<parameters number>
-0
-<node id>
-38
+39
 <node type>
 0
 <node name>
@@ -117,7 +93,7 @@ ProOF.gen.operator.Mutation
 <parameters number>
 0
 <node id>
-84
+85
 <node type>
 0
 <node name>
@@ -127,7 +103,7 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSProblem
 <parameters number>
 0
 <node id>
-85
+86
 <node type>
 0
 <node name>
@@ -138,7 +114,7 @@ ProOF.gen.best.BestSol
 1
 0.1
 <node id>
-101
+102
 <node type>
 3
 <node name>
@@ -148,7 +124,7 @@ ProOF.gen.best.nEvaluations
 <parameters number>
 0
 <node id>
-56
+57
 <node type>
 0
 <node name>
@@ -157,21 +133,21 @@ PPCCSInstance
 ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
-map.sgl
-config.sgl
+mapa.sgl
+dinamica.sgl
 <node id>
-103
+105
 <node type>
 0
 <node name>
-Evaluations
+Time
 <node class name>
-ProOF.gen.stopping.Evaluations
+ProOF.gen.stopping.Time
 <parameters number>
 1
-10000
+1.0
 <node id>
-386
+387
 <node type>
 0
 <node name>
@@ -181,87 +157,7 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitRandom
 <parameters number>
 0
 <node id>
-387
-<node type>
-0
-<node name>
-InitLowAcceleration
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
-<parameters number>
-0
-<node id>
-388
-<node type>
-0
-<node name>
-InitSmallCurves
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
-<parameters number>
-0
-<node id>
-389
-<node type>
-0
-<node name>
-InitGreedy
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitGreedy
-<parameters number>
-0
-<node id>
-390
-<node type>
-0
-<node name>
-OX
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosOX
-<parameters number>
-0
-<node id>
-391
-<node type>
-0
-<node name>
-Average
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosAverage
-<parameters number>
-0
-<node id>
-392
-<node type>
-0
-<node name>
-Aritmetic
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosAritmetic
-<parameters number>
-0
-<node id>
-393
-<node type>
-0
-<node name>
-Geometric
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosGeometric
-<parameters number>
-0
-<node id>
-394
-<node type>
-0
-<node name>
-BLX-Alpha
-<node class name>
-ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosBLXAlpha
-<parameters number>
-0
-<node id>
-395
+396
 <node type>
 0
 <node name>
@@ -271,7 +167,7 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutUniform
 <parameters number>
 0
 <node id>
-396
+397
 <node type>
 0
 <node name>
@@ -281,7 +177,7 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutLimite
 <parameters number>
 0
 <node id>
-397
+398
 <node type>
 0
 <node name>
@@ -291,17 +187,12 @@ ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutCreep
 <parameters number>
 0
 ---------- summarizing ----------
-Run;jSGA_PPCCS
+Run;jMultiStart
 Problem;jPPCCS
-Stop;Evaluations
-jfUAVOperators;InitRandom;InitLowAcceleration;InitSmallCurves;InitGreedy
-jfUAVOperators;OX;Average;Aritmetic;Geometric;BLX-Alpha
+Stop;Time
+jfUAVOperators;InitRandom
 jfUAVOperators;Uniform;Limite;Creep
-Size Population;100
-Size Tournament;3
-Rate Crossover;70
-Rate Mutation;10
 refresh time;0.1
-Map for jUAV;map.sgl
-Dinamic for jUAV;config-static.sgl
-Evaluations;10000
+Map for jUAV;I1PPDCP_000.sgl
+Dinamic for jUAV;configB.sgl
+time;1.0

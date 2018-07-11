@@ -2,7 +2,9 @@
 
 ## Overview
 
-We have four path replanning.
+We have seven path replanning.
+
+* **APSTD4s** -> *Algoritmo de Pouso Sem Tomada de Decisão for security*
 
 * **DE4s** -> *Differential Evolution for security*
 
@@ -11,6 +13,10 @@ We have four path replanning.
 * **GA4s** -> *Genetic Algorithm for security* [[Link](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
 
 * **MPGA4s** ->  *Multi-Population Genetic Algorithm for security* [[Link](http://ieeexplore.ieee.org/document/7372174/)]
+
+* **MS4s** -> *Multi-Start for security*
+
+* **SGA4s** -> *Simple Genetic Algorithm for security*
 
 ## To Run
 

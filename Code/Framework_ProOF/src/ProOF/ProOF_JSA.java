@@ -24,19 +24,19 @@ public class ProOF_JSA {
         if (args == null || args.length == 0 || args[0].equals("-parameters")) {
             local = true;            
             
-//            args = new String[]{"run", "./instance", "./"};
+            args = new String[]{"run", "./instance", "./"};
             
 //            args = new String[]{"run", "./in/ICTAI2017/agmp/agmp", "./in/ICTAI2017/agmp/"};
 //            args = new String[]{"run", "./in/ICTAI2017/ag/ag", "./in/ICTAI2017/ag/"};
 //            args = new String[]{"run", "./in/ICTAI2017/hg/hg", "./in/ICTAI2017/hg/"};
 //            args = new String[]{"run", "./in/ICTAI2017/de/de", "./in/ICTAI2017/de/"};
 //            args = new String[]{"run", "./in/ICTAI2017/apstd/apstd", "./in/ICTAI2017/apstd/"};
-//              args = new String[]{"run", "./in/ICTAI2017/descend/descend", "./in/ICTAI2017/descend/"};
+//              args = new String[]{"run", "./in/ICTAI2017/ms/ms", "./in/ICTAI2017/ms/"};
             
 //            args = new String[]{"run", "./in/APSTD/method_apstd", "./in/APSTD/"};//Ok
 //            args = new String[]{"run", "./in/GH/method_gh", "./in/GH/"};//Ok
 
-            args = new String[]{"run", "./in/SGA/method_sga", "./in/SGA/"};//Ok
+//            args = new String[]{"run", "./in/SGA/method_sga", "./in/SGA/"};//Ok
 //            args = new String[]{"run", "./in/ED/method_ed", "./in/ED/"}; //ERRO
             
 //            args = new String[]{"run", "./in/MPGA/method_mpga", "./in/MPGA/"};

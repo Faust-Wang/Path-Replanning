@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ProOF.apl.jsa.method.jdescend;
+package ProOF.apl.jsa.method.multistart;
 
 import ProOF.apl.factorys.fStop;
 import ProOF.com.Linker.LinkerParameters;
@@ -20,7 +20,7 @@ import ProOF.gen.operator.Mutation;
  *
  * @author Jesimar
  */
-public class jDescend extends MetaHeuristic {
+public class MultiStart extends MetaHeuristic {
 
     private Problem problem;    
     private Initialization init;
@@ -31,7 +31,7 @@ public class jDescend extends MetaHeuristic {
 
     @Override
     public String name() {
-        return "jDescend";
+        return "jMultiStart";
     }
 
     @Override

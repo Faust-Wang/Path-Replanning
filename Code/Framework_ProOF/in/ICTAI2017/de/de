@@ -37,7 +37,7 @@ ProOF.apl.factorys.fStop
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 0,1,2,3
 <node id>
@@ -47,7 +47,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 12
 <node id>
@@ -57,7 +57,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 13
 <node id>
@@ -67,7 +67,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 14
 <nodes number>
@@ -79,7 +79,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jDE_PPCCS
 <node class name>
-ProOF.apl.jeezzz.method.de.DifferentialEvolution
+ProOF.apl.jsa.method.de.DifferentialEvolution
 <parameters number>
 4
 39
@@ -113,7 +113,7 @@ ProOF.gen.operator.Initialization
 <node name>
 Recombine
 <node class name>
-ProOF.apl.jeezzz.method.de.Recombine
+ProOF.apl.jsa.method.de.Recombine
 <parameters number>
 0
 <node id>
@@ -123,7 +123,7 @@ ProOF.apl.jeezzz.method.de.Recombine
 <node name>
 Disturbance
 <node class name>
-ProOF.apl.jeezzz.method.de.Disturbance
+ProOF.apl.jsa.method.de.Disturbance
 <parameters number>
 0
 <node id>
@@ -133,7 +133,7 @@ ProOF.apl.jeezzz.method.de.Disturbance
 <node name>
 Difference
 <node class name>
-ProOF.apl.jeezzz.method.de.Difference
+ProOF.apl.jsa.method.de.Difference
 <parameters number>
 0
 <node id>
@@ -143,7 +143,7 @@ ProOF.apl.jeezzz.method.de.Difference
 <node name>
 jPPCCS
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSProblem
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSProblem
 <parameters number>
 0
 <node id>
@@ -174,7 +174,7 @@ ProOF.gen.best.nEvaluations
 <node name>
 PPCCSInstance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.instance.InstanceProblem
+ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
 mapa.sgl
@@ -197,7 +197,7 @@ ProOF.gen.stopping.Time
 <node name>
 InitRandom
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitRandom
 <parameters number>
 0
 <node id>
@@ -207,7 +207,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
 <node name>
 InitLowAcceleration
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <parameters number>
 0
 <node id>
@@ -217,7 +217,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <node name>
 InitSmallCurves
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <parameters number>
 0
 <node id>
@@ -227,7 +227,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <node name>
 InitGreedy
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitGreedy
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitGreedy
 <parameters number>
 0
 <node id>
@@ -237,7 +237,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitGreedy
 <node name>
 Difference
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$Difference
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$Difference
 <parameters number>
 0
 <node id>
@@ -247,7 +247,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$Difference
 <node name>
 Disturbance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$Disturbance
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$Disturbance
 <parameters number>
 0
 <node id>
@@ -257,7 +257,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$Disturbance
 <node name>
 Recombine
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$Recombine
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$Recombine
 <parameters number>
 0
 ---------- summarizing ----------

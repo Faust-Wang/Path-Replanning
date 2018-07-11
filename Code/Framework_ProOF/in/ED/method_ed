@@ -37,7 +37,7 @@ ProOF.apl.factorys.fStop
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 0,1,2,3
 <nodes number>
@@ -49,7 +49,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jDE_PPCCS
 <node class name>
-ProOF.apl.jeezzz.method.de.DifferentialEvolution
+ProOF.apl.jsa.method.de.DifferentialEvolution
 <parameters number>
 4
 39
@@ -83,7 +83,7 @@ ProOF.gen.operator.Initialization
 <node name>
 jPPCCS
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSProblem
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSProblem
 <parameters number>
 0
 <node id>
@@ -114,7 +114,7 @@ ProOF.gen.best.nEvaluations
 <node name>
 PPCCSInstance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.instance.InstanceProblem
+ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
 map.sgl
@@ -137,7 +137,7 @@ ProOF.gen.stopping.Evaluations
 <node name>
 InitRandom
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitRandom
 <parameters number>
 0
 <node id>
@@ -147,7 +147,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
 <node name>
 InitLowAcceleration
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <parameters number>
 0
 <node id>
@@ -157,7 +157,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <node name>
 InitSmallCurves
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <parameters number>
 0
 <node id>
@@ -167,7 +167,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <node name>
 InitGreedy
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitGreedy
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitGreedy
 <parameters number>
 0
 ---------- summarizing ----------

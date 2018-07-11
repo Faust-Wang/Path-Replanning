@@ -39,7 +39,7 @@ import ProOF.apl.advanced2.method.RFFO;
 import ProOF.apl.jsa.method.apstd.APSTD;
 import ProOF.apl.jsa.method.de.DifferentialEvolution;
 import ProOF.apl.jsa.method.greedy.GreedyAlgorithm;
-import ProOF.apl.jsa.method.jdescend.jDescend;
+import ProOF.apl.jsa.method.multistart.MultiStart;
 import ProOF.apl.jsa.method.sga.SimpleGeneticAlgorithm;
 
 /**
@@ -91,7 +91,7 @@ public class fRun extends Factory<Run>{
             case 31: return new DifferentialEvolution();
             case 32: return new GreedyAlgorithm();
             case 33: return new APSTD();
-            case 34: return new jDescend();
+            case 34: return new MultiStart();
         }
         return null;
     }

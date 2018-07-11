@@ -67,7 +67,7 @@ ProOF.apl.factorys.fStructure
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 0,1,2,3
 <node id>
@@ -77,7 +77,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 4,5,6,7,8
 <node id>
@@ -87,7 +87,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
 <node name>
 jfUAVOperators
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators
 <chooses>
 9,10,11
 <nodes number>
@@ -174,7 +174,7 @@ ProOF.apl.advanced1.FMS.local_search.Nothing
 <node name>
 jPPCCS
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSProblem
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSProblem
 <parameters number>
 0
 <node id>
@@ -205,7 +205,7 @@ ProOF.gen.best.nEvaluations
 <node name>
 PPCCSInstance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.instance.InstanceProblem
+ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
 map.sgl
@@ -228,7 +228,7 @@ ProOF.apl.advanced1.FMS.structure.Tournament
 <node name>
 InitRandom
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitRandom
 <parameters number>
 0
 <node id>
@@ -238,7 +238,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitRandom
 <node name>
 InitLowAcceleration
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <parameters number>
 0
 <node id>
@@ -248,7 +248,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitLowAcceleration
 <node name>
 InitSmallCurves
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <parameters number>
 0
 <node id>
@@ -258,7 +258,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitSmallCurves
 <node name>
 InitGreedy
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitGreedy
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$InitGreedy
 <parameters number>
 0
 <node id>
@@ -268,7 +268,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$InitGreedy
 <node name>
 OX
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosOX
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosOX
 <parameters number>
 0
 <node id>
@@ -278,7 +278,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosOX
 <node name>
 Average
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosAverage
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosAverage
 <parameters number>
 0
 <node id>
@@ -288,7 +288,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosAverage
 <node name>
 Aritmetic
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosAritmetic
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosAritmetic
 <parameters number>
 0
 <node id>
@@ -298,7 +298,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosAritmetic
 <node name>
 Geometric
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosGeometric
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosGeometric
 <parameters number>
 0
 <node id>
@@ -308,7 +308,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosGeometric
 <node name>
 BLX-Alpha
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosBLXAlpha
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$CrosBLXAlpha
 <parameters number>
 0
 <node id>
@@ -318,7 +318,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$CrosBLXAlpha
 <node name>
 Uniform
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$MutUniform
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutUniform
 <parameters number>
 0
 <node id>
@@ -328,7 +328,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$MutUniform
 <node name>
 Limite
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$MutLimite
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutLimite
 <parameters number>
 0
 <node id>
@@ -338,7 +338,7 @@ ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$MutLimite
 <node name>
 Creep
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.core.PPCCSOperators$MutCreep
+ProOF.apl.jsa.problem.PPCCS.core.PPCCSOperators$MutCreep
 <parameters number>
 0
 ---------- summarizing ----------

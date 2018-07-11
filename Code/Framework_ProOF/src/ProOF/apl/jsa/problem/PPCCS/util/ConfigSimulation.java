@@ -53,7 +53,7 @@ public class ConfigSimulation {
     public static final boolean IS_SAVE_ROUTE_FINAL = true;
     
     /*Salva uma imagem com a melhor rota final encontrada*/
-    public static final boolean IS_SAVE_IMAGE_SOLUTION_FINAL = true;
+    public static final boolean IS_SAVE_IMAGE_SOLUTION_FINAL = false;
     
     /*Salva uma imagem com a melhor rota final encontrada*/
     public static final boolean IS_SAVE_OBJECT_NEW_ROUTE = false;

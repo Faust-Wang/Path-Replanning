@@ -19,7 +19,7 @@ ProOF.apl.factorys.fRun
 <node name>
 jHG_PPCCS
 <node class name>
-ProOF.apl.jeezzz.method.greedy.GreedyAlgorithm
+ProOF.apl.jsa.method.greedy.GreedyAlgorithm
 <parameters number>
 0
 <node id>
@@ -29,7 +29,7 @@ ProOF.apl.jeezzz.method.greedy.GreedyAlgorithm
 <node name>
 PPCCSInstance
 <node class name>
-ProOF.apl.jeezzz.problem.PPCCS.instance.InstanceProblem
+ProOF.apl.jsa.problem.PPCCS.instance.InstanceProblem
 <parameters number>
 2
 map.sgl
