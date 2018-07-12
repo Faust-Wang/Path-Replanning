@@ -2,11 +2,9 @@
 
 ## Overview
 
-We have seven path replanning.
+We have eight path replanning.
 
-* **APSTD4s** -> *Algoritmo de Pouso Sem Tomada de Decisão for security*
-
-* **DE4s** -> *Differential Evolution for security*
+* **DE4s** -> *Differential Evolution for security* ![DE4s](./tree/master/DE4s/)
 
 * **GH4s** -> *Greedy Heuristic for security* [[Link](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
 
@@ -19,6 +17,8 @@ We have seven path replanning.
 * **MILP4s** -> *Mixed Integer Linear Programming for security*
 
 * **SGA4s** -> *Simple Genetic Algorithm for security*
+
+* **APSTD4s** -> *Algoritmo de Pouso Sem Tomada de Decisão for security*
 
 ## To Run
 

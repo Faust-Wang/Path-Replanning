@@ -5,7 +5,7 @@
 # Time Step (dt) 
 1
 # Initial State (px, py, vel, ang) 
-0.0 0.0 24.0 -1.570796327
+50.0 80.0 24.0 -1.570796327
 # Maximum Velocity (m/s) [Terminal] [Fixed Wing 30.55] [Multirotor 3.0]
 30.0
 # Minimum Velocity (m/s) [Lift] [Fixed Wing 11.11] [Multirotor 1.0]
