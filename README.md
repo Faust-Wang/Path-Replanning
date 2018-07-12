@@ -6,19 +6,19 @@ We have eight path replanning.
 
 * **DE4s** -> *Differential Evolution for security* [[DE4s](./DE4s/)]
 
-* **GH4s** -> *Greedy Heuristic for security* [[Link](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
+* **GH4s** -> *Greedy Heuristic for security* [[GH4s](./GH4s/)] [[Link Artigo](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
 
-* **GA4s** -> *Genetic Algorithm for security* [[Link](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
+* **GA4s** -> *Genetic Algorithm for security* [[GA4s](./GA4s/)] [[Link Artigo](http://www.worldscientific.com/doi/abs/10.1142/S0218213017600089)]
 
-* **MPGA4s** ->  *Multi-Population Genetic Algorithm for security* [[Link](http://ieeexplore.ieee.org/document/7372174/)]
+* **MPGA4s** ->  *Multi-Population Genetic Algorithm for security* [[MPGA4s](./MPGA4s/)] [[Link Artigo](http://ieeexplore.ieee.org/document/7372174/)]
 
-* **MS4s** -> *Multi-Start for security*
+* **MS4s** -> *Multi-Start for security* [[MS4s](./MS4s/)]
 
-* **MILP4s** -> *Mixed Integer Linear Programming for security*
+* **MILP4s** -> *Mixed Integer Linear Programming for security* [[MILP4s](./MILP4s/)]
 
-* **SGA4s** -> *Simple Genetic Algorithm for security*
+* **SGA4s** -> *Simple Genetic Algorithm for security* [[SGA4s](./SGA4s/)]
 
-* **APSTD4s** -> *Algoritmo de Pouso Sem Tomada de Decisão for security*
+* **APSTD4s** -> *Algoritmo de Pouso Sem Tomada de Decisão for security* [[APSTD4s](./APSTD4s/)]
 
 ## To Run
 
